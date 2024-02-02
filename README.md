@@ -12,7 +12,8 @@ Criando APIs com NodeJs
 <p>O projeto abrirá em: http://localhost:3000</p>
 <h5>Requisitos</h5>
 <p>Será necessário a criação de um arquivo config.js na raiz src/ contendo as seguintes informações:</p>
-<p>
+
+````
 global.SALT_KEY = 'chave aleatória para codificação de chaves (poderá ser criado a partir de uma guid)';
 global.EMAIL_TMPL = 'Olá, <strong>{nome}</strong>, seja bem vindo à Store';
 
@@ -23,7 +24,8 @@ module.exports = {
     sendgridKey: '',
     containerConnectionString: 'conexão com container em azure storage'
 } 
-</p>
+````
+
 
 <h2>:wrench: Funcionalidades</h2>
 <p>4 operações principais: 
@@ -40,7 +42,7 @@ module.exports = {
 <h2>:calendar: Status do Projeto</h2>
 <p>Finalizado</p>
 
-<p>Ferramentas Utilizadas
+<h2> :computer: Ferramentas Utilizadas</h2>
 <ul>
 <li>Node.js</li>
 <li>Express</li>
@@ -56,41 +58,43 @@ module.exports = {
 <a href="https://www.linkedin.com/in/amandaalmeidaacsa/" alt="Linkedin">Entre em Contato!</a>
 <p>Feito com muito :purple_heart: </p>
 
-<h3>Conteúdo Programático do Curso</h3>
-Instalação Node, NPM e VS Code
-npm init e instalação dos pacotes
-Criando um servidor Web
-Normalizando a porta
-Gerenciando Erros do Servidor
-Iniciando o Debug
-Separando o Servidor
-Configurando o NPM Start
-Nodemon
-CRUD REST
-Rotas
-Controllers
-MongoDb Setup
-Mongooose
-Models
-Criando um Produto
-Listando os Produtos
-Listando um Produto pelo slug
-Listando um Produto pelo Id
-Listando os Produtos de uma tag
-Atualizando um produto
-Excluindo um produto
-Validações
-Repositórios
-Async/Await
-Revisitando os Models: Customer
-Revisitando os Models: Order
-Revisitando os Models: OrderItems
-Revisitando os Controllers: Customer
-Revisitando os Controllers: Order
-Arquivo de Configurações
-Enviando E-mail de Boas Vindas
-Upload da Imagem do Produto
-Autenticação
-Autorização
-Habilitando CORS
-Publicando a API
+<h3>:notebook_with_decorative_cover: Conteúdo Programático do Curso</h3>
+<ul>
+<li>Instalação Node, NPM e VS Code</li>
+<li>npm init e instalação dos pacotes</li>
+<li>Criando um servidor Web</li>
+<li>Normalizando a porta</li>
+<li>Gerenciando Erros do Servidor</li>
+<li>Iniciando o Debug</li>
+<li>Separando o Servidor</li>
+<li>Configurando o NPM Start</li>
+<li>Nodemon</li>
+<li>CRUD REST</li>
+<li>Rotas</li>
+<li>Controllers</li>
+<li>MongoDb Setup</li>
+<li>Mongooose</li>
+<li>Models</li>
+<li>Criando um Produto</li>
+<li>Listando os Produtos</li>
+<li>Listando um Produto pelo slug</li>
+<li>Listando um Produto pelo Id</li>
+<li>Listando os Produtos de uma tag</li>
+<li>Atualizando um produto</li>
+<li>Excluindo um produto</li>
+<li>Validações</li>
+<li>Repositórios</li>
+<li>Async/Await</li>
+<li>Revisitando os Models: Customer</li>
+<li>Revisitando os Models: Order</li>
+<li>Revisitando os Models: OrderItems</li>
+<li>Revisitando os Controllers: Customer</li>
+<li>Revisitando os Controllers: Order</li>
+<li>Arquivo de Configurações</li>
+<li>Enviando E-mail de Boas Vindas</li>
+<li>Upload da Imagem do Produto</li>
+<li>Autenticação</li>
+<li>Autorização</li>
+<li>Habilitando CORS</li>
+<li>Publicando a API</li>
+</ul>
