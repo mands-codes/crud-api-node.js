@@ -1,0 +1,28 @@
+{
+  "name": "crud_node_js",
+  "version": "1.0.0",
+  "description": "CRUD API NODE.JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "Amanda Caroline",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "azure-storage": "^2.10.7",
+    "body-parser": "^1.20.2",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "guid": "^0.0.12",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "mongoose": "^8.1.1",
+    "sendgrid": "^5.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
